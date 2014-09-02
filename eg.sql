@@ -1,7 +1,7 @@
 CREATE EXTENSION mulicorn;
 
 CREATE SERVER ocd FOREIGN DATA WRAPPER multicorn options (
-    wrapper 'sunlightfdi.wrappers.ocd.OpenCivicDataFdw'
+    wrapper 'sunlightfdw.wrappers.ocd.OpenCivicDataFdw'
 );
 
 CREATE foreign table ocd_people (

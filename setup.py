@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 
 from setuptools import setup
-from sunlightfdi import __version__
+from sunlightfdw import __version__
 
-long_description = "Sunlight FDI Wrapper"
+long_description = "Sunlight FDW"
 
 setup(
-    name="sunlightfdi",
+    name="sunlightfdw",
     version=__version__,
-    packages=['sunlightfdi',],
+    packages=['sunlightfdw',],
     author="Paul Tagliamonte",
     author_email="paultag@debian.org",
     long_description=long_description,
